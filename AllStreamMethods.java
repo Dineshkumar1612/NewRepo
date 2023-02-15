@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class AllStreamMethods {
+	static {
+		System.out.println("Welcome");
+	}
 	public static void main (String[] args) {
 		StreamMethods m1 = new StreamMethods("Dinesh",26,10000,"Tiruvannamalai",604408);
 		StreamMethods m2 = new StreamMethods("Azarudeen",26,20000,"Cuddalore",621101);
